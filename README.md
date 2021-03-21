@@ -1,2 +1,2 @@
-# Estudos
-Estudos gerais sobre programação
+# Learing Python
+Some python examples
