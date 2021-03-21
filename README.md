@@ -1,2 +1,2 @@
-# Learing Python
+# Learning Python
 Some python examples
