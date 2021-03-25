@@ -3,6 +3,7 @@ from os import system
 import sys
 import os
 import json
+import turtle
 
 def screen_clear():
     # for linux and Mac
@@ -63,7 +64,7 @@ def display_hang(attempts):
                    |      O
                    |     \|/
                    |      |
-                   |     / \
+                   |     / ∖
                    -
                 """,
                 # head, body e arms, leg
@@ -193,7 +194,8 @@ def play(word_list):
         print(f"Attempts left: {attempts}")
     
     if guessed:
-        print("Woow, you win!!!!")
+        screen_clear()
+        print("\n\nWoow, you win!!!! \n\n")
 
     else:
         print(f"You lost =( \n The word is {word}")
