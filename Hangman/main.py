@@ -2,8 +2,6 @@ import random
 from os import system
 import sys
 import os
-import json
-import turtle
 
 def screen_clear():
     # for linux and Mac
