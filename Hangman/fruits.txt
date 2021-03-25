@@ -1,0 +1,7 @@
+orange
+apple
+grape
+strawberry
+lemon
+melon
+watermelon
