@@ -2,6 +2,7 @@ import random
 from os import system
 import sys
 import os
+#import json
 
 def screen_clear():
     # for linux and Mac
@@ -14,7 +15,7 @@ def screen_clear():
 def start():
     choice = input("Do you want to start? (Y)es/(N)o. \n")
     choice = choice.upper()
-    if choice == 'YES':
+    if choice == 'YES' or choice == 'Y':
         input("\n Ok, lets go! Press ENTER. . .\n")
         screen_clear()
     else:
@@ -197,6 +198,13 @@ def play(word_list):
 
     else:
         print(f"You lost =( \n The word is {word}")
+    
+    choice = input("Play again? (Y)es/(N)o. \n")
+    choice = choice.upper()
+    if choice == 'YES' or choice == 'Y':
+        screen_clear()
+        start()
+
 
 def main():
     start()
