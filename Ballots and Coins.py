@@ -17,38 +17,36 @@ valor = valor - n5*5
 
 n2 = valor//2
 valor = valor - n2*2
-n2 = float('%.2f'% n2)
-valor = float('%.2f'% valor)
-
-# Valor correto até aqui!!! 
+n2 = float('%.2f' % n2)
+valor = float('%.2f ' % valor)
 
 m1 = int(valor)
 valor = valor - m1
-valor = float('%.2f'% valor)
+valor = float('%.2f' % valor)
 
 m50 = valor//0.5
 valor = valor - m50*0.5
-m50 = float('%.2f'% m50)
-valor = float('%.2f'% valor)
+m50 = float('%.2f' % m50)
+valor = float('%.2f' % valor)
 
 m25 = valor//0.25
 valor = valor - m25*0.25
-m25 = float('%.2f'% m25)
-valor = float('%.2f'% valor)
+m25 = float('%.2f' % m25)
+valor = float('%.2f' % valor)
 
 m10 = valor//0.10
 valor = valor - m10*0.10
-m10 = float('%.2f'% m10)
-valor = float('%.2f'% valor)
+m10 = float('%.2f' % m10)
+valor = float('%.2f' % valor)
 
 m5 = valor//0.05
 valor = valor - m5*0.05
-m5 = float('%.2f'% m5)
-valor = float('%.2f'% valor)
+m5 = float('%.2f' % m5)
+valor = float('%.2f' % valor)
 
 m01 = valor*100
-m01 = float('%.2f'% m01)
-valor = float('%.2f'% valor)
+m01 = float('%.2f' % m01)
+valor = float('%.2f' % valor)
 
 print('NOTAS:')
 print('{} nota(s) de R$ 100.00'.format(int(n100)))
