@@ -1,2 +1,5 @@
 # Learning Python
-Some python examples
+
+## Some python codes for training my programming skills
+
+
